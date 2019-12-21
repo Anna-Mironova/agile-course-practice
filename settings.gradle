@@ -56,6 +56,8 @@ include "code/temperature-converter/ViewModel"
 project(":code/temperature-converter/ViewModel").name = "temperature-converter-ViewModel"
 include "code/temperature-converter/View"
 project(":code/temperature-converter/View").name = "temperature-converter-View"
+include "code/temperature-converter/Infrastructure"
+project(":code/temperature-converter/Infrastructure").name = "temperature-converter-Infrastructure"
 // Власов Антон
 // Гречухин Никита
 include "code/fractioncalculator"
